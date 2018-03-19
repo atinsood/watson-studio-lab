@@ -24,4 +24,4 @@
 
 ![create_project_success](images/step_one/create_project_success.png)
 
-8. Great, you have covered the first milestone. You have a project and now are you are ready to create experiments. [Follow along]()
+8. Great, you have covered the first milestone. You have a project and now are you are ready to create experiments. [Follow along](step_two.md)
