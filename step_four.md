@@ -1,4 +1,4 @@
-# Following progress of the training
+# Following progress of your experiment
 
 1. You will be redirected to the overview page of the training which will show your experiment to be in `Queued` stage from which it will go to `In progress` and then to `Completed` stage.
 
