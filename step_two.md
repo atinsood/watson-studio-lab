@@ -2,7 +2,9 @@
 
 ## Linking your experiment with IBM Watson Machine Learning
 
-1. Now that you have a project, the next step is to create an experiment. Go back to [experiment assistant](https://dataplatform.ibm.com/ml/experiments/new-experiment?context=analytics) and fill in the details. 
+1. Now that you have a project, the next step is to create an experiment. Go to `Projects` tab and select the project that you had created from the dropdown. Once in the project page, you should be able to see various tabs including `Overview` , `Assets` and so on. Select the `Assets` tab and go to the `Experiments` section towards the bottom of the page and click on `New Experiment`.
+
+![experiment_assets](images/step_two/experiment_assets.png)
 
 2.In order for you to create an instance, you will need to create a Watson Machine Learning instance as well. [IBM WML](https://www.ibm.com/cloud/machine-learning) is a comprehenive solution that is your gateway to various machine and deep learning technologies.
 
@@ -12,6 +14,8 @@
 
 4b. Select the `Lite` plan and click on create. Once created close the new tab that had opened up and come back to the [experiment assistant](https://dataplatform.ibm.com/ml/experiments/new-experiment?context=analytics)
 
+![create_ml_account](images/step_two/create_ml_account.png)
+
 5.You should be able to click on the `Reload` button for the Machine Learning instance and your instance for Machine Learning should show up for selection.
 
 ## Linking your experiment with IBM Cloud Object Storage
@@ -20,14 +24,30 @@
 
 7.Click onthe tab that says `New connection` and select the cloud object storage instance that you had created earlier.8.
 
+![cos_create_connection](images/step_two/cos_create_connection.png)
+
 8.You will need a training/data bucket to hold your training data and a results bucket to hold your results. 
 
 9.Select the `New` radio button for creating `Bucket containing training data` and `Bucket for storing training results`.
+
+![cos_create_buckets](images/step_two/cos_create_buckets.png)
 
 ** NOTE: Bucket name is restricted to lowercase letters from a to z, numbers, or dashes, between 3 and 64 characters in length.**
 
 10.The bucket names are globally unique, so be careful in picking up names for your train/results bucket. You can add a suffix of your username to make them unique.
 
+11.This will create the test and training buckets for you and will show you links to the buckets. On the left panel, look for `Cloud Object Storage buckets for storing training source and results files`
+
+12.Click on the link to the source bucket (it has a small icon with a window) and it will open a new tab.
+
+![cos_upload_data_1](images/step_two/cos_upload_data_1.png)
+
+13. You will need to upload the training data set for mnist to the source bucket. You can find the dataset [here](data/) and drag and drop these files to the source bucket.
+
+![cos_upload_data_2](images/step_two/cos_upload_data_2.png)
+
+14. Close the tab once you have the data uploaded and come back to the IBM Watson Studio tab.
+
 ## Creating a training definition
 
-11.Next step it to go ahead and create a training definition which will be used to specify details about your training. Follow the instructions [here]()
+15. Next step it to go ahead and create a training definition which will be used to specify details about your training. Follow the instructions [here](step_three.md)

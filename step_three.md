@@ -4,7 +4,7 @@ Training definition is your manifest providing various details about the trainin
 
 1.Provide details about the experiment name and description.
 
-2.Upload your training model code by dropping off the zip file found [here]() in the section marked to upload the model file. In our case we will be using the code from [here]() which is a sample MNIST program. The code contains of a python file which is basically a python program from tensorflow to train a model on MNIST dataset using convolution.
+2.Upload your training model code by dropping off the zip file found [here](model/) in the section marked to upload the model file. In our case we will be using the code from [here]() which is a sample MNIST program. The code contains of a python file which is basically a python program from tensorflow to train a model on MNIST dataset using convolution.
 
 3.Select the framework as tensorflow 1.5 from the dropdown.
 
@@ -24,6 +24,11 @@ The execution command is your entry point and is what triggers your program.
 
 8.Click on create button, this will create the training definition and will bring you back to the create experiment page. 
 
+![create_training_defn](images/step_three/create_training_defn.png)
+
 9.Click on `create and run` button and this should start the training.
+
+![create_run_training_defn](images/step_three/create_run_training_defn.png)
+
 
 10.Hurray!! You have a training running. Follow the direction [here] to see the progress of the training.
