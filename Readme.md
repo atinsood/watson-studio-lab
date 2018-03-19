@@ -1,7 +1,7 @@
 # IBM Watson Studio Lab
 
 ## Purpose
-The purpose of this lab is to get you familar with the idea of IBM Watson Studio(https://dataplatform.ibm.com/ml/experiments/) and showcase how you can bring an external example like MNIST and run it in IBM Watson Studio with no changes required.
+The purpose of this lab is to get you familar with the idea of [IBM Watson Studio](https://dataplatform.ibm.com/ml/experiments/) and showcase how you can bring an external example like MNIST and run it in IBM Watson Studio with no changes required in the code.
 
 ## Deep Learning on cloud in 4 easy steps
 
