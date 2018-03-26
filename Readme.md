@@ -26,7 +26,12 @@ Click on [Command line approach](cli.md) to follow along the cli path
 ### Step 4
 [Monitoring the progress of your experiment](step_four.md)
 
+### Step 5
+[Saving and deploying the model](step_five.md)
+
 ## Further reading
+
+- [IBM Watson Studio](https://datascience.ibm.com/docs/content/analyze-data/wml-get-started.html?context=analytics)
 
 - Scoring and inferencing using IBM Watson Studio
 
