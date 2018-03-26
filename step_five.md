@@ -36,7 +36,7 @@ Once the model, the next step is to deploy or host the model.
 4. The above gives details on how your model is hosted and how you can get to your model using a REST endpoint and/or how to query this model using different clients. 
 
 
-5. You can also quickly test your model by using the `Test` tab. For the mnist example, copy the contents of [this](data/wml_demo_5.json) file which is a tensor representation of the number.
+5. You can also quickly test your model by using the `Test` tab. For the mnist example, copy the contents of [this](scoring/wml_demo_5.json) file which is a tensor representation of the number.
 
 ![test_deploy_model_1](images/step_five/test_deploy_model_1.png)
 
